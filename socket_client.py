@@ -6,8 +6,6 @@ import socket
 HOST = '127.0.0.1'
 PORT = 42069
 
-print("CLIENT")
-
 # take in user input to send to server
 message = input("say something! \n").encode()
 
